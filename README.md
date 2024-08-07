@@ -61,25 +61,30 @@ Create BED File: Generates BED files for filtered CNVs for visualization in IGV.
 
 Functions:
 
-load_cnv_data(file_path): Loads CNV data from a TSV file.
+1. load_cnv_data(file_path): Loads CNV data from a TSV file.
 
-filter_cnvs(cnv_data, min_size, max_pvalue): Filters CNVs based on size and p-value.
+2.filter_cnvs(cnv_data, min_size, max_pvalue): Filters CNVs based on size and p-value.
 
-plot_cnv_size_distribution(cnv_data, output_path): Plots the distribution of CNV sizes.
+3. plot_cnv_size_distribution(cnv_data, output_path): Plots the distribution of CNV sizes.
 
-create_bed_file(cnv_data, output_path): Creates a BED file from filtered CNV data.
+4. create_bed_file(cnv_data, output_path): Creates a BED file from filtered CNV data.
 
-process_sample(sample_file, output_dir, min_size, max_pvalue): Processes a single sample.
+5. process_sample(sample_file, output_dir, min_size, max_pvalue): Processes a single sample.
 
-main(data_dir, output_dir, min_size=1000, max_pvalue=0.05): Processes multiple samples.
+5. main(data_dir, output_dir, min_size=1000, max_pvalue=0.05): Processes multiple samples.
+
 
 
 Requirements
 
-pandas
+1.pandas
 
-numpy
-matplotlib
-seaborn
-pybedtools
+2.numpy
+
+3.matplotlib
+
+4.seaborn
+
+5.pybedtools
+
 igv
