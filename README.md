@@ -1,3 +1,10 @@
+# CNV Analysis Pipeline
+
+This repository contains a pipeline for analyzing Copy Number Variations (CNVs) and visualizing the results using the Integrative Genomics Viewer (IGV). The pipeline processes multiple samples and generates filtered CNV data along with visualizations.
+
+## Directory Structure
+
+
 CNV_Analysis_Pipeline/
 │
 ├── data/
