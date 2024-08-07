@@ -63,7 +63,7 @@ Functions:
 
 1. load_cnv_data(file_path): Loads CNV data from a TSV file.
 
-2.filter_cnvs(cnv_data, min_size, max_pvalue): Filters CNVs based on size and p-value.
+2. filter_cnvs(cnv_data, min_size, max_pvalue): Filters CNVs based on size and p-value.
 
 3. plot_cnv_size_distribution(cnv_data, output_path): Plots the distribution of CNV sizes.
 
@@ -75,16 +75,16 @@ Functions:
 
 
 
+
 Requirements
+1. pandas
 
-1.pandas
+2. numpy
 
-2.numpy
+3. matplotlib
 
-3.matplotlib
+4. seaborn
 
-4.seaborn
+5. pybedtools
 
-5.pybedtools
-
-igv
+6. igv
