@@ -59,6 +59,7 @@ Visualize CNV Size Distribution: Generates a histogram of CNV sizes.
 Create BED File: Generates BED files for filtered CNVs for visualization in IGV.
 
 
+
 Functions:
 
 1. load_cnv_data(file_path): Loads CNV data from a TSV file.
@@ -77,6 +78,7 @@ Functions:
 
 
 Requirements
+
 1. pandas
 
 2. numpy
