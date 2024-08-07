@@ -1,0 +1,4 @@
+chromosome	start	end	size	pvalue	cnv_id
+chr1	1500000	1502500	2500	0.04	cnv4
+chr2	2500000	2503500	3500	0.01	cnv5
+chr4	4000000	4006000	6000	0.05	cnv6
