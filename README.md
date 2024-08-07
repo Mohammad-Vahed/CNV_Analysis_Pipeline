@@ -39,13 +39,18 @@ Each CNV data file should be in TSV format with the following columns:
 
 chromosome: Chromosome name
 
-start: Start position of the CNV
-end: End position of the CNV
-size: Size of the CNV
-pvalue: P-value of the CNV
-cnv_id: Unique identifier for the CNV
-Pipeline Details
-Script: scripts/cnv_pipeline.py
+'start': Start position of the CNV
+
+'end': End position of the CNV
+
+'size': Size of the CNV
+
+'pvalue': P-value of the CNV
+
+'cnv_id': Unique identifier for the CNV Pipeline Details
+
+'Script': scripts/cnv_pipeline.py
+
 
 
 This script performs the following steps:
